@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "post-refresh: ${SNAP_REVISION} `date -Iseconds`" >> $SNAP_COMMON/log 
