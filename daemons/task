@@ -1,0 +1,5 @@
+#!/bin/bash
+FLAG=${SNAP_COMMON}/tasking
+trap "rm -f ${FLAG}" EXIT
+echo "task starting `date -Iseconds`" > $FLAG
+sleep 20 

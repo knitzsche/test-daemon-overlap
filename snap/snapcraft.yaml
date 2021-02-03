@@ -16,7 +16,9 @@ apps:
     command: d1
     daemon: simple
     refresh-mode: endure
-
+  task:
+    command: task
+    daemon: simple
 parts:
   daemons:
     plugin: dump
