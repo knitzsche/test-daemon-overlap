@@ -3,7 +3,6 @@ FLAG=${SNAP_COMMON}/tasking
 LOG=${SNAP_COMMON}/pre-refresh.log
 while [[ -f ${FLAG} ]]
 do
-  echo "pre-refresh found ${FLAG}: `date -Iseconds`" >> $LOG
   sleep 1 
 done
 echo "pre-refresh: ${FLAG} is not present. continue with refresh." >> $LOG
